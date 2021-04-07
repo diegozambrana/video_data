@@ -1,0 +1,1 @@
+define(["module","OK/logger"],(function(e,t){"use strict";var l;if(e.config().enabledDetectGT){var n=e.config().timeoutDetectGT||6e4;l=setInterval((function(){document.querySelector("html.translated-ltr, html.translated-rtr")&&null!==document.getElementById("goog-gt-tt")&&(t.success("use-google-translate"),clearInterval(l),l=null)}),n)}}));

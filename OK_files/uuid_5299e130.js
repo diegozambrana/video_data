@@ -1,0 +1,1 @@
+define([],(function(){"use strict";var r="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".split("");return{generate:function(){var n,e,t=r,a=new Array(36),i=0;for(e=0;e<36;e++)8===e||13===e||18===e||23===e?a[e]="-":14===e?a[e]="4":(i<=2&&(i=33554432+16777216*Math.random()|0),n=15&i,i>>=4,a[e]=t[19===e?3&n|8:n]);return a.join("")}}}));
